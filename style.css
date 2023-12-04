@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-image: url(car.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+img {
+  margin: 10px;
+  position: absolute;
+  height: 100px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: rgba(0, 0, 0, 0.87);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 25px;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: grey;
+}
+.navbar li {
+  float: right;
+}
